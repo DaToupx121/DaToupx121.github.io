@@ -12,8 +12,7 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
-          npm install
-          npm run docs:build
+          yarn run dev  // script to start
         env:
           NODE_OPTIONS: '--max_old_space_size=4096'
 
